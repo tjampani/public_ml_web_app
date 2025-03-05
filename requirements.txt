@@ -1,7 +1,5 @@
-### pre-requisites
-Before running the scripts, please ensure that the following Python libraries installed
-
-pandas
-numpy
-streamlit
-streamlit_option_menu
+numpy==1.21.4
+pickle-mixin==1.0.2
+streamlit==1.2.0
+streamlit-option-menu==0.3.2
+scikit-learn==1.0.1
