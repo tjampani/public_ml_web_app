@@ -11,9 +11,9 @@ from streamlit_option_menu import option_menu
 
 
 #loding the files
-diabetes_model = pickle.load(open('C:/Users/DELL/OneDrive/Desktop/multiple_disease_pred/trained_model.sav', 'rb'))
+diabetes_model = pickle.load(open('trained_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/DELL/OneDrive/Desktop/multiple_disease_pred/heart_pred_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('heart_pred_model.sav', 'rb'))
 
 
 # side bar for navigation
